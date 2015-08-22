@@ -433,11 +433,11 @@ th {
   padding: 0;
 }
 body {
-  color: #ffffff;
+  color: #3399ff;
   font-size: 1em;
   font-family: "open sans","helvetica Nue","sans-serif";
-  background-color: #3399ff;
-   text-shadow: 2px 2px 2px #000;
+  background-color:  #ffffff;
+  text-shadow: .5px .5px .5px #000;
   }
 .masthead-heading,
 .masthead-intro,
@@ -451,6 +451,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border-top: solid 1em #3399ff;
+  text-align: center;
 }
 .masthead-intro{
   margin-bottom: 0.1em;
@@ -483,10 +484,12 @@ body {
 .social > li {
   display: inline-block;
 }
-.content-footer > p {
-  color: white;
+.content-footer > p  {
+  color: #3399ff;
   border-radius: 12px;
+  text-align: center;
 }
+
 .introduction-section > p,
 .location-section > p,
 .content-footer > p {
@@ -503,10 +506,11 @@ section > h1{
   margin-top: 2em;
 }
 .content-footer {
-  background-color: #3399ff;
-  border: 5px solid white;
+  background-color: #ffffff;
+  border: 5px solid #3399ff;
   border-radius: 12px;
   margin-top: 5em;
+  text-align: center;
 }
 /*@media only screen and (max-width: 500px) {
   .masthead-heading{
@@ -525,18 +529,19 @@ section > h1{
     text-shadow: 3px 3px 3px #000;
 }
 .profile-picture {
-  margin-left: 52em;
+  margin: 0 auto;
   margin-bottom: 2em;
   height: 15em;
-  width: 17em;
+  width: 24em;
   border: solid .5em #3399ff;
   border-radius: 12px;
   text-align: center;
-
+  
 }
 h1 {
   font-size: 3em;
-  text-shadow: 5px 5px 5px #000;
+  text-shadow: 1px 1px 1px #000;
+  text-align: left;
 
 }
 .projects h1 {
@@ -577,4 +582,15 @@ h1 {
   font-weight: 200;
   font-size: 1.5rem;
   display: block;
+}
+p {
+  font-weight: 600;
+  text-align: left;
+}
+h2 {
+  text-align: left;
+}
+.cover {
+  text-align: center;
+  text-shadow: .5px .5px .5px #000;
 }
