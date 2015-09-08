@@ -450,7 +450,7 @@ body {
   background-image: url('https://unsplash.imgix.net/photo-1414541944151-2f3ec1cfd87d?fit=crop&fm=jpg&h=700&q=75&w=1050');
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: solid 1em #3399ff;
+  border-top: groove 1em #3399ff;
   text-align: center;
 }
 .masthead-intro{
@@ -507,7 +507,7 @@ section > h1{
 }
 .content-footer {
   background-color: #ffffff;
-  border: 5px dotted #3399ff;
+  border: 12px outset #3399ff;
   border-radius: 12px;
   margin-top: 5em;
   text-align: center;
@@ -534,7 +534,7 @@ section > h1{
   margin-bottom: 2em;
   height: 15em;
   width: 24em;
-  border: solid .5em #3399ff;
+  border: 12px inset #3399ff;
   border-radius: 12px;
   text-align: center;
   
@@ -569,8 +569,9 @@ h1 {
   height: 15em;
   width: 15em;
   display: inline-block;
-  border: 5px dashed #3399ff;
+  border: 12px double #3399ff;
   border-radius: 12px;
+  padding: 3px;
 }
 .project-images {
   list-style: none;
